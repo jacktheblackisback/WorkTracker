@@ -3,7 +3,6 @@ create or alter procedure dbo.SupplierInfoUpdate(
     @FirstName varchar(20),
     @LastName varchar(20),
     @NickName varchar(20),
-    -- @BonusesReceived int,
     @IsVerified bit
 )
 as 

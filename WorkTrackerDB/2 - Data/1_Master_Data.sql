@@ -19,6 +19,7 @@ union select 'Brady', '', '', 1
 union select 'Laura', 'Goldsmith', '', 1
 union select 'Brian', 'Bockert', '', 0
 union select 'Eunice', 'English', 'Miss. English', 1
+union select 'Shyanna', '', '', 1
 
 insert PaymentMethod(PaymentMethodName, IsCreditCard)
 values
@@ -46,6 +47,7 @@ values
 
 insert Months(MonthName)
 values
+    (' '),
     ('January'),
     ('February'),
     ('March'),

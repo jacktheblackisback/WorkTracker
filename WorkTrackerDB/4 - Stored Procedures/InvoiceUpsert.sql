@@ -3,16 +3,22 @@ create or alter procedure dbo.InvoiceUpsert(
     @SupplierId int,
     @PaymentMethodId int,
     @PackageStatusId int,
+    @MonthReceivedId int = 0,
     @InvoiceTotal decimal(10, 2),
     @AmountPaid decimal(10, 2) = 0,
-    @TrackingNumber varchar(50) = '',
-    @MonthReceived varchar(9) = ''
+    @TrackingNumber varchar(50) = ''
 )
 as 
 begin 
-    declare @OrderNumber int = 0;
+    declare @OrderNumber int = 0
 
-    select @InvoiceId = isnull(@InvoiceId, 0), @AmountPaid = isnull(@AmountPaid, 0), @TrackingNumber = isnull(@TrackingNumber, ''), @MonthReceived = nullif(@MonthReceived, '')
+    select @InvoiceId = isnull(@InvoiceId, 0), @AmountPaid = isnull(@AmountPaid, 0), @TrackingNumber = isnull(@TrackingNumber, '')
+    if @MonthReceivedId = 0
+    begin
+        select @MonthReceivedId = m.MonthId
+        from Months m 
+        where m.MonthName = ' '
+    end
 
     select @OrderNumber = count(*) + 1
     from Invoice i 
@@ -35,7 +41,7 @@ begin
             i.InvoiceTotal = @InvoiceTotal,
             i.AmountPaid = @AmountPaid,
             i.TrackingNumber = @TrackingNumber,
-            i.MonthReceived = @MonthReceived
+            i.MonthReceivedId = @MonthReceivedId
         from Invoice i
         where i.InvoiceId = @InvoiceId
     end

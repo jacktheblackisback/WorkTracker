@@ -21,8 +21,7 @@ create table dbo.Invoice (
         constraint chk_InvoiceTotal_must_not_be_less_than_zero check (InvoiceTotal >= 0),
     AmountPaid decimal(10, 2) not null default 0
         constraint chk_AmountPaid_must_not_be_less_than_zero check (AmountPaid >= 0),
-    TrackingNumber varchar(50) not null
-        constraint u_TrackingNumber_must_be_Unique unique,
+    TrackingNumber varchar(50) not null,
     MonthReceivedId int null
         constraint fk_Invoice_Months foreign key references Months(MonthId),
     constraint chk_AmountPaid_must_not_be_greater_than_InvoiceTotal check (AmountPaid <= InvoiceTotal)
