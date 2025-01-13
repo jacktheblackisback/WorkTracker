@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WorkTracker.SupplierDetail"
+             Title="Supplier Detail"
+             BackgroundColor="#f9f9f9">
+    <VerticalStackLayout Padding="20" Spacing="20" HorizontalOptions="Center">
+        <!-- Page Title -->
+        <Label Text="Supplier Information"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="#333" />
+
+        <!-- Supplier Full Name -->
+        <StackLayout Orientation="Horizontal" Spacing="10" VerticalOptions="Center">
+            <Label Text="Name:"
+                   FontSize="16"
+                   TextColor="#333"
+                   VerticalOptions="Center" />
+            <Label Text="{Binding FullName}"
+                   FontSize="16"
+                   TextColor="#555"
+                   VerticalOptions="Center" />
+        </StackLayout>
+
+        <!-- Amount of Invoices -->
+        <StackLayout Orientation="Horizontal" Spacing="10" VerticalOptions="Center">
+            <Label Text="Invoices:"
+                   FontSize="16"
+                   TextColor="#333"
+                   VerticalOptions="Center" />
+            <Label Text="{Binding AmountOfInvoices}"
+                   FontSize="16"
+                   TextColor="#555"
+                   VerticalOptions="Center" />
+        </StackLayout>
+
+        <!-- Total Purchase Amount -->
+        <StackLayout Orientation="Horizontal" Spacing="10" VerticalOptions="Center">
+            <Label Text="Total Purchase:"
+                   FontSize="16"
+                   TextColor="#333"
+                   VerticalOptions="Center" />
+            <Label Text="{Binding TotalPurchaseAmount, StringFormat='{0:C}'}"
+                   FontSize="16"
+                   TextColor="#555"
+                   VerticalOptions="Center" />
+        </StackLayout>
+
+        <!-- Bonuses Received -->
+        <StackLayout Orientation="Horizontal" Spacing="10" VerticalOptions="Center">
+            <Label Text="Bonuses:"
+                   FontSize="16"
+                   TextColor="#333"
+                   VerticalOptions="Center" />
+            <Label Text="{Binding BonusesReceived}"
+                   FontSize="16"
+                   TextColor="#555"
+                   VerticalOptions="Center" />
+        </StackLayout>
+
+        <!-- Verified Status -->
+        <StackLayout Orientation="Horizontal" Spacing="10" VerticalOptions="Center">
+            <Label Text="Verified:"
+                   FontSize="16"
+                   TextColor="#333"
+                   VerticalOptions="Center" />
+            <Label Text="{Binding IsVerified}"
+                   FontSize="16"
+                   TextColor="#555"
+                   VerticalOptions="Center" />
+        </StackLayout>
+
+        <!-- Edit Button -->
+        <Button Text="Edit"
+                FontSize="16"
+                BackgroundColor="#007aff"
+                TextColor="White"
+                CornerRadius="8"
+                HeightRequest="50"
+                VerticalOptions="Center"
+                Margin="0,30,0,0"
+                Clicked="Button_Clicked" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -30,6 +30,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = WorkTracker.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/yaako/source/repos/WorkTracker/WorkTracker/EditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WorkTracker.EditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = EditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = EditPage.xaml
+
 [C:/Users/yaako/source/repos/WorkTracker/WorkTracker/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WorkTracker.MainPage.xaml
@@ -47,6 +53,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WorkTracker.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/yaako/source/repos/WorkTracker/WorkTracker/SupplierDetail.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WorkTracker.SupplierDetail.xaml
+build_metadata.AdditionalFiles.TargetPath = SupplierDetail.xaml
+build_metadata.AdditionalFiles.RelativePath = SupplierDetail.xaml
 
 [C:/Users/yaako/source/repos/WorkTracker/WorkTracker/TestFlex.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

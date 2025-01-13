@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WorkTracker.EditPage"
+             Title="Edit Page"
+             BackgroundColor="#f9f9f9">
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <!-- Title -->
+        <Label Text="Edit User Details"
+               FontSize="24"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               TextColor="#333" />
+
+        <!-- Grid Layout for Labels and Entry Fields -->
+        <Grid ColumnDefinitions="Auto,*,*" 
+              RowDefinitions="Auto,Auto,Auto"
+              RowSpacing="15">
+            <!-- First Name -->
+            <Label Text="First Name:"
+                   Grid.Column="0"
+                   Grid.Row="0"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   TextColor="#333"
+                   FontSize="16"
+                   Margin="0,0,10,0" />
+            <Entry x:Name="FirstName"
+                   Grid.Column="1"
+                   Grid.Row="0"
+                   Placeholder="Enter first name"
+                   BackgroundColor="#fff"
+                   TextColor="#333"
+                   FontSize="16"
+                   HeightRequest="40"
+                   VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand" />
+
+            <!-- Last Name -->
+            <Label Text="Last Name:"
+                   Grid.Column="0"
+                   Grid.Row="1"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   TextColor="#333"
+                   FontSize="16"
+                   Margin="0,0,10,0" />
+            <Entry x:Name="LastName"
+                   Grid.Column="1"
+                   Grid.Row="1"
+                   Placeholder="Enter last name"
+                   BackgroundColor="#fff"
+                   TextColor="#333"
+                   FontSize="16"
+                   HeightRequest="40"
+                   VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand" />
+
+            <!-- NickName -->
+            <Label Text="NickName:"
+                   Grid.Column="0"
+                   Grid.Row="2"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Start"
+                   TextColor="#333"
+                   FontSize="16"
+                   Margin="0,0,10,0" />
+            <Entry x:Name="NickName"
+                   Grid.Column="1"
+                   Grid.Row="2"
+                   Placeholder="Enter nickname"
+                   BackgroundColor="#fff"
+                   TextColor="#333"
+                   FontSize="16"
+                   HeightRequest="40"
+                   VerticalOptions="Center"
+                   HorizontalOptions="FillAndExpand" />
+        </Grid>
+
+        <!-- Grid Layout for Buttons -->
+        <Grid ColumnDefinitions="*,*"
+              RowDefinitions="Auto"
+              Margin="0,30,0,0">
+            <Button Text="Cancel"
+                    Grid.Column="0"
+                    BackgroundColor="#e0e0e0"
+                    TextColor="#333"
+                    FontSize="16"
+                    CornerRadius="8"
+                    HeightRequest="50"
+                    VerticalOptions="Center"
+                    Margin="0,0,10,0"
+                    Clicked="Button_Clicked" />
+
+            <Button Text="Save"
+                    Grid.Column="1"
+                    BackgroundColor="#007aff"
+                    TextColor="White"
+                    FontSize="16"
+                    CornerRadius="8"
+                    HeightRequest="50"
+                    VerticalOptions="Center"
+                    Margin="10,0,0,0" />
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

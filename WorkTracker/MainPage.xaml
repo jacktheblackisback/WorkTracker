@@ -13,7 +13,11 @@
                         <Grid RowDefinitions="*" ColumnDefinitions="*">
                             <Label Text="{Binding FullName}" 
                                    Grid.Column="0" 
-                                   HorizontalTextAlignment="Center"/>
+                                   HorizontalTextAlignment="Center">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                                </Label.GestureRecognizers>
+                            </Label>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
@@ -21,21 +25,12 @@
 
         </VerticalStackLayout>
         <VerticalStackLayout Grid.Column="1" Grid.Row="0" BackgroundColor="AliceBlue">
-            <CollectionView x:Name="pmet" SelectionMode="Single" Margin="0,20,0,0">
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Grid RowDefinitions="*" ColumnDefinitions="*">
-                            <Label Text="{Binding FullName}" 
-                                   Grid.Column="0" 
-                                   HorizontalTextAlignment="Center"/>
-                        </Grid>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </VerticalStackLayout>
-        <VerticalStackLayout Grid.Column="2" Grid.Row="0" BackgroundColor="LightCoral">
 
         </VerticalStackLayout>
-        
+        <VerticalStackLayout Grid.Column="2" Grid.Row="0" BackgroundColor="LightCoral" >
+            <Label Text="Total amount from all suppliers" FontSize="23" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            <Label x:Name="tot" Text="{Binding InvoiceTotal}" FontAttributes="Bold" FontSize="20" HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+
     </Grid>
 </ContentPage>

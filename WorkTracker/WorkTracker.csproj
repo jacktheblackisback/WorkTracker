@@ -70,4 +70,13 @@
 	  <ProjectReference Include="..\..\SqlFramework\SqlFramework\SqlFramework.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="EditPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="SupplierDetail.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
