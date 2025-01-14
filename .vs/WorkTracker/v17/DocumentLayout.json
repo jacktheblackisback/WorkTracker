@@ -3,12 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|c:\\users\\yaako\\source\\repos\\worktracker\\worktracker\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|solutionrelative:worktracker\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E90EE028-D517-4897-A3D4-D6F7572C9892}|..\\SqlFramework\\SqlFramework\\SqlFramework.csproj|c:\\users\\yaako\\source\\repos\\sqlframework\\sqlframework\\sqlutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|c:\\users\\yaako\\source\\repos\\worktracker\\worktracker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|solutionrelative:worktracker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|c:\\users\\yaako\\source\\repos\\worktracker\\worktracker\\editpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|solutionrelative:worktracker\\editpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +17,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "WorkTracker\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\MainPage.xaml.cs",
-              "RelativeToolTip": "WorkTracker\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SqlUtility.cs",
+              "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlUtility.cs",
+              "RelativeDocumentMoniker": "..\\SqlFramework\\SqlFramework\\SqlUtility.cs",
+              "ToolTip": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlUtility.cs",
+              "RelativeToolTip": "..\\SqlFramework\\SqlFramework\\SqlUtility.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:49:29.529Z",
+              "WhenOpened": "2025-01-13T21:09:22.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\MainPage.xaml",
-              "RelativeDocumentMoniker": "WorkTracker\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\MainPage.xaml",
-              "RelativeToolTip": "WorkTracker\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "EditPage.xaml",
+              "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\EditPage.xaml",
+              "RelativeDocumentMoniker": "WorkTracker\\EditPage.xaml",
+              "ToolTip": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\EditPage.xaml",
+              "RelativeToolTip": "WorkTracker\\EditPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-13T20:41:24.847Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T21:09:16.361Z"
             }
           ]
         }
