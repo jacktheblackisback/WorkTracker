@@ -8,3 +8,10 @@
 /.vs/WorkTracker/FileContentIndex/a791598a-8e5f-4728-a648-45a74e2ad3f5.vsidx
 /.vs/WorkTracker/FileContentIndex/ad90408e-626a-47ff-b014-e0ef3dcba846.vsidx
 *.vsidx
+/.vs
+
+# Build folders
+/WorkTracker/bin/
+/WorkTracker/obj/
+/MiddleTier/obj/
+/MiddleTier/bin/
