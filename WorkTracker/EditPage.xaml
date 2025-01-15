@@ -28,13 +28,14 @@
             <Entry x:Name="FirstName"
                    Grid.Column="1"
                    Grid.Row="0"
-                   Placeholder="Enter first name"
+                   Text="{Binding FirstName}"
+                   Placeholder="Enter Firstname"
                    BackgroundColor="#fff"
                    TextColor="#333"
                    FontSize="16"
                    HeightRequest="40"
                    VerticalOptions="Center"
-                   HorizontalOptions="FillAndExpand" />
+                   HorizontalOptions="FillAndExpand"/>
 
             <!-- Last Name -->
             <Label Text="Last Name:"
@@ -48,7 +49,8 @@
             <Entry x:Name="LastName"
                    Grid.Column="1"
                    Grid.Row="1"
-                   Placeholder="Enter last name"
+                   Text="{Binding LastName}"
+                   Placeholder="Enter Lastname"
                    BackgroundColor="#fff"
                    TextColor="#333"
                    FontSize="16"
@@ -68,7 +70,8 @@
             <Entry x:Name="NickName"
                    Grid.Column="1"
                    Grid.Row="2"
-                   Placeholder="Enter nickname"
+                   Text="{Binding NickName}"
+                   Placeholder="Enter Nickname"
                    BackgroundColor="#fff"
                    TextColor="#333"
                    FontSize="16"
@@ -90,7 +93,7 @@
                     HeightRequest="50"
                     VerticalOptions="Center"
                     Margin="0,0,10,0"
-                    Clicked="Button_Clicked" />
+                    Clicked="CancelButton_Clicked" />
 
             <Button Text="Save"
                     Grid.Column="1"
@@ -100,7 +103,8 @@
                     CornerRadius="8"
                     HeightRequest="50"
                     VerticalOptions="Center"
-                    Margin="10,0,0,0" />
+                    Margin="10,0,0,0"
+                    Clicked="SaveButton_Clicked"/>
         </Grid>
     </VerticalStackLayout>
 </ContentPage>

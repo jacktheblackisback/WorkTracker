@@ -68,6 +68,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\..\SqlFramework\SqlFramework\SqlFramework.csproj" />
+	  <ProjectReference Include="..\MiddleTier\MiddleTier.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -1,4 +1,5 @@
 using Microsoft.Data.SqlClient;
+using MiddleTier;
 using SqlFramework;
 
 namespace WorkTracker;

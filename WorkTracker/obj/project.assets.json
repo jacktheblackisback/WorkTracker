@@ -3161,6 +3161,19 @@
           "buildTransitive/net8.0-android34.0/Xamarin.KotlinX.Serialization.Core.Jvm.targets": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -6246,6 +6259,19 @@
         },
         "build": {
           "buildTransitive/net8.0-android34.0/Xamarin.KotlinX.Serialization.Core.Jvm.targets": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -9335,6 +9361,19 @@
           "buildTransitive/net8.0-android34.0/Xamarin.KotlinX.Serialization.Core.Jvm.targets": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -12422,6 +12461,19 @@
           "buildTransitive/net8.0-android34.0/Xamarin.KotlinX.Serialization.Core.Jvm.targets": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -15507,6 +15559,19 @@
         },
         "build": {
           "buildTransitive/net8.0-android34.0/Xamarin.KotlinX.Serialization.Core.Jvm.targets": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -18598,6 +18663,19 @@
           "buildTransitive/net8.0-android34.0/Xamarin.KotlinX.Serialization.Core.Jvm.targets": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -19996,6 +20074,19 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -21463,6 +21554,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -22926,6 +23030,19 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -24393,6 +24510,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -25858,6 +25988,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -27311,6 +27454,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -28517,6 +28673,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -29700,6 +29869,19 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -30887,6 +31069,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -32070,6 +32265,19 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -33257,6 +33465,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -34431,6 +34652,19 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -35851,6 +36085,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -37204,6 +37451,19 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -38561,6 +38821,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -39914,6 +40187,19 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -41271,6 +41557,19 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
+        }
+      },
       "SqlFramework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -42624,6 +42923,19 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "MiddleTier/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MiddleTier.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MiddleTier.dll": {}
         }
       },
       "SqlFramework/1.0.0": {
@@ -49018,6 +49330,11 @@
         "xamarin.kotlinx.serialization.core.jvm.nuspec"
       ]
     },
+    "MiddleTier/1.0.0": {
+      "type": "project",
+      "path": "../MiddleTier/MiddleTier.csproj",
+      "msbuildProject": "../MiddleTier/MiddleTier.csproj"
+    },
     "SqlFramework/1.0.0": {
       "type": "project",
       "path": "../../SqlFramework/SqlFramework/SqlFramework.csproj",
@@ -49031,6 +49348,7 @@
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
       "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "MiddleTier >= 1.0.0",
       "SqlFramework >= 1.0.0"
     ],
     "net9.0-ios18.1": [
@@ -49039,6 +49357,7 @@
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
       "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "MiddleTier >= 1.0.0",
       "SqlFramework >= 1.0.0"
     ],
     "net9.0-maccatalyst18.1": [
@@ -49047,6 +49366,7 @@
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
       "Microsoft.NET.ILLink.Tasks >= 9.0.0",
+      "MiddleTier >= 1.0.0",
       "SqlFramework >= 1.0.0"
     ],
     "net9.0-windows10.0.19041": [
@@ -49054,6 +49374,7 @@
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.Extensions.Logging.Debug >= 9.0.0",
       "Microsoft.Maui.Controls >= 9.0.0",
+      "MiddleTier >= 1.0.0",
       "SqlFramework >= 1.0.0"
     ]
   },
@@ -49096,6 +49417,9 @@
           "projectReferences": {
             "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlFramework.csproj": {
               "projectPath": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlFramework.csproj"
+            },
+            "C:\\Users\\yaako\\source\\repos\\WorkTracker\\MiddleTier\\MiddleTier.csproj": {
+              "projectPath": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\MiddleTier\\MiddleTier.csproj"
             }
           }
         },
@@ -49104,6 +49428,9 @@
           "projectReferences": {
             "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlFramework.csproj": {
               "projectPath": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlFramework.csproj"
+            },
+            "C:\\Users\\yaako\\source\\repos\\WorkTracker\\MiddleTier\\MiddleTier.csproj": {
+              "projectPath": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\MiddleTier\\MiddleTier.csproj"
             }
           }
         },
@@ -49112,6 +49439,9 @@
           "projectReferences": {
             "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlFramework.csproj": {
               "projectPath": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlFramework.csproj"
+            },
+            "C:\\Users\\yaako\\source\\repos\\WorkTracker\\MiddleTier\\MiddleTier.csproj": {
+              "projectPath": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\MiddleTier\\MiddleTier.csproj"
             }
           }
         },
@@ -49120,6 +49450,9 @@
           "projectReferences": {
             "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlFramework.csproj": {
               "projectPath": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlFramework.csproj"
+            },
+            "C:\\Users\\yaako\\source\\repos\\WorkTracker\\MiddleTier\\MiddleTier.csproj": {
+              "projectPath": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\MiddleTier\\MiddleTier.csproj"
             }
           }
         }

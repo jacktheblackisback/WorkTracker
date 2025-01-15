@@ -1025,3 +1025,5 @@ C:\Users\yaako\source\repos\WorkTracker\WorkTracker\obj\Debug\net9.0-windows10.0
 C:\Users\yaako\source\repos\WorkTracker\WorkTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt
 C:\Users\yaako\source\repos\WorkTracker\WorkTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\yaako\source\repos\WorkTracker\WorkTracker\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\yaako\source\repos\WorkTracker\WorkTracker\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MiddleTier.dll
+C:\Users\yaako\source\repos\WorkTracker\WorkTracker\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\MiddleTier.pdb

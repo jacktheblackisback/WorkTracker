@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkTracker", "WorkTracker\WorkTracker.csproj", "{1F8B7668-5EE9-4F3E-A031-91C6C5067586}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlFramework", "..\SqlFramework\SqlFramework\SqlFramework.csproj", "{E90EE028-D517-4897-A3D4-D6F7572C9892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleTier", "MiddleTier\MiddleTier.csproj", "{EF53C813-A8E5-4B04-B3EF-B9B7FEA72F77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E90EE028-D517-4897-A3D4-D6F7572C9892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E90EE028-D517-4897-A3D4-D6F7572C9892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E90EE028-D517-4897-A3D4-D6F7572C9892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF53C813-A8E5-4B04-B3EF-B9B7FEA72F77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF53C813-A8E5-4B04-B3EF-B9B7FEA72F77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF53C813-A8E5-4B04-B3EF-B9B7FEA72F77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF53C813-A8E5-4B04-B3EF-B9B7FEA72F77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

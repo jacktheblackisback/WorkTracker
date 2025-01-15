@@ -13,6 +13,7 @@
           "Microsoft.EntityFrameworkCore": "9.0.0",
           "Microsoft.Extensions.Logging.Debug": "9.0.0",
           "Microsoft.Maui.Controls": "9.0.0",
+          "MiddleTier": "1.0.0",
           "SqlFramework": "1.0.0",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.2792.45",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.54"
@@ -879,6 +880,17 @@
       "System.Text.Encodings.Web/4.7.2": {},
       "System.Text.Json/9.0.0": {},
       "System.Threading.Tasks.Extensions/4.5.4": {},
+      "MiddleTier/1.0.0": {
+        "dependencies": {
+          "SqlFramework": "1.0.0"
+        },
+        "runtime": {
+          "MiddleTier.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "SqlFramework/1.0.0": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.2.2",
@@ -1431,6 +1443,11 @@
       "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "MiddleTier/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SqlFramework/1.0.0": {
       "type": "project",

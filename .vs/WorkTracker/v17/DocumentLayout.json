@@ -3,11 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E90EE028-D517-4897-A3D4-D6F7572C9892}|..\\SqlFramework\\SqlFramework\\SqlFramework.csproj|c:\\users\\yaako\\source\\repos\\sqlframework\\sqlframework\\sqlutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E90EE028-D517-4897-A3D4-D6F7572C9892}|..\\SqlFramework\\SqlFramework\\SqlFramework.csproj|c:\\users\\yaako\\source\\repos\\sqlframework\\sqlframework\\mainobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|c:\\users\\yaako\\source\\repos\\worktracker\\worktracker\\editpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|solutionrelative:worktracker\\editpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|c:\\users\\yaako\\source\\repos\\worktracker\\worktracker\\editpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|solutionrelative:worktracker\\editpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|c:\\users\\yaako\\source\\repos\\worktracker\\worktracker\\supplierdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|solutionrelative:worktracker\\supplierdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|c:\\users\\yaako\\source\\repos\\worktracker\\worktracker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F8B7668-5EE9-4F3E-A031-91C6C5067586}|WorkTracker\\WorkTracker.csproj|solutionrelative:worktracker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90EE028-D517-4897-A3D4-D6F7572C9892}|..\\SqlFramework\\SqlFramework\\SqlFramework.csproj|c:\\users\\yaako\\source\\repos\\sqlframework\\sqlframework\\sqlutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,27 +33,63 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainObject.cs",
+              "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\MainObject.cs",
+              "RelativeDocumentMoniker": "..\\SqlFramework\\SqlFramework\\MainObject.cs",
+              "ToolTip": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\MainObject.cs",
+              "RelativeToolTip": "..\\SqlFramework\\SqlFramework\\MainObject.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T21:34:51.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SqlUtility.cs",
               "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlUtility.cs",
               "RelativeDocumentMoniker": "..\\SqlFramework\\SqlFramework\\SqlUtility.cs",
               "ToolTip": "C:\\Users\\yaako\\source\\repos\\SqlFramework\\SqlFramework\\SqlUtility.cs",
               "RelativeToolTip": "..\\SqlFramework\\SqlFramework\\SqlUtility.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAD4vzYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T21:09:22.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-14T19:44:02.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SupplierDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\SupplierDetail.xaml.cs",
+              "RelativeDocumentMoniker": "WorkTracker\\SupplierDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\SupplierDetail.xaml.cs",
+              "RelativeToolTip": "WorkTracker\\SupplierDetail.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T19:37:21.307Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "EditPage.xaml",
-              "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\EditPage.xaml",
-              "RelativeDocumentMoniker": "WorkTracker\\EditPage.xaml",
-              "ToolTip": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\EditPage.xaml",
-              "RelativeToolTip": "WorkTracker\\EditPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-13T21:09:16.361Z"
+              "Title": "EditPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\EditPage.xaml.cs",
+              "RelativeDocumentMoniker": "WorkTracker\\EditPage.xaml.cs",
+              "ToolTip": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\EditPage.xaml.cs",
+              "RelativeToolTip": "WorkTracker\\EditPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T19:37:10.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "WorkTracker\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\yaako\\source\\repos\\WorkTracker\\WorkTracker\\MainPage.xaml.cs",
+              "RelativeToolTip": "WorkTracker\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T19:31:31.775Z"
             }
           ]
         }
