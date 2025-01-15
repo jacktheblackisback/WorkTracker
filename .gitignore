@@ -2,16 +2,57 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/WorkTracker/FileContentIndex/74870172-28e3-407f-9b59-3dba4e7df9e8.vsidx
-/.vs/WorkTracker/FileContentIndex/96552175-ce52-464c-af8e-21e320694d74.vsidx
-/.vs/WorkTracker/FileContentIndex/9d4e1975-e1de-4968-b25c-ba842e0d6809.vsidx
-/.vs/WorkTracker/FileContentIndex/a791598a-8e5f-4728-a648-45a74e2ad3f5.vsidx
-/.vs/WorkTracker/FileContentIndex/ad90408e-626a-47ff-b014-e0ef3dcba846.vsidx
-*.vsidx
-/.vs
+# Build Folders
+bin/
+obj/
 
-# Build folders
-/WorkTracker/bin/
-/WorkTracker/obj/
-/MiddleTier/obj/
-/MiddleTier/bin/
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.dll
+*.exe
+*.app
+*.log
+*.cache
+*.pdb
+
+# Visual Studio specific
+.vscode/
+.vs/
+*.csproj.user
+
+# Rider IDE specific
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.log
+
+# Output of dotnet publish
+publish/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Secret files
+*.key
+*.pfx
+*.snk
+
+# MAUI-specific additions
+*.ipa
+*.apk
+*.aab
+*.xcarchive
