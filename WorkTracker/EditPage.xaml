@@ -14,7 +14,7 @@
 
         <!-- Grid Layout for Labels and Entry Fields -->
         <Grid ColumnDefinitions="Auto,*,*" 
-              RowDefinitions="Auto,Auto,Auto"
+              RowDefinitions="Auto,Auto,Auto, Auto"
               RowSpacing="15">
             <!-- First Name -->
             <Label Text="First Name:"
@@ -78,6 +78,26 @@
                    HeightRequest="40"
                    VerticalOptions="Center"
                    HorizontalOptions="FillAndExpand" />
+            <!-- Full Name -->
+            <Label Text="Full Name:"
+                    Grid.Column="0"
+                    Grid.Row="3"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Start"
+                    TextColor="#333"
+                    FontSize="16"
+                    Margin="0,0,10,0" />
+            <Entry x:Name="FullName"
+                    Grid.Column="1"
+                    Grid.Row="3"
+                    Text="{Binding FullName}"
+                    BackgroundColor="#fff"
+                    TextColor="#333"
+                    FontSize="16"
+                    HeightRequest="40"
+                    VerticalOptions="Center"
+                    HorizontalOptions="FillAndExpand"/>
+
         </Grid>
 
         <!-- Grid Layout for Buttons -->

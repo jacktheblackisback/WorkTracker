@@ -26,7 +26,7 @@ namespace WorkTracker
                 var bc = l.BindingContext;
                 if (bc is Supplier s)
                 {
-                    Navigation.PushAsync(new SupplierDetail(s.SupplierId));
+                    Navigation.PushAsync(new SupplierDetail(s/*.SupplierId*/));
                 }
             }
         }

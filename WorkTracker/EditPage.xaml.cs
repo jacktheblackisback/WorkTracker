@@ -27,6 +27,11 @@ public partial class EditPage : ContentPage
 		cmd.Parameters["@NickName"].Value = supplier.NickName;
 		cmd.Parameters["@IsVerified"].Value = supplier.IsVerified;
 		SqlUtility.ExecuteCRUDWrapper(cmd);
+
+  //      foreach(var p in supplier.GetType().GetProperties())
+		//{
+		//	supplier.InvokePropertyChanged(p.Name);
+		//}
     }
 
     private void CancelButton_Clicked(object sender, EventArgs e)
@@ -39,7 +44,7 @@ public partial class EditPage : ContentPage
 		try
 		{
 			Save();
-			Navigation.PopAsync();
+			//Navigation.PopAsync();
 		}
 		catch (Exception ex)
 		{

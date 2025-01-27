@@ -32,6 +32,7 @@ namespace MiddleTier
             {
                 this._firstname = value;
                 InvokePropertyChanged();
+                InvokePropertyChanged("FullName");
             }
         }
         public string LastName
@@ -41,6 +42,7 @@ namespace MiddleTier
             {
                 this._lastname = value;
                 InvokePropertyChanged();
+                InvokePropertyChanged("FullName");
             }
         }
         public string NickName
